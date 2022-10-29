@@ -1,0 +1,137 @@
+/* Card styling */
+
+.card {
+  box-shadow: 0px 0px 20px 5px rgba(226, 153, 239, 0.492);
+  padding: 2rem 1rem;
+  margin: 1rem 0;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card-heading {
+  background-color: #262626;
+  color: #ededed;
+  padding: 1rem 0;
+}
+
+.card-heading h3 {
+  font-size: 1.3rem;
+}
+
+.card-heading h2 {
+  font-size: 1.3rem;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+/* Website maintenance css */
+
+.maintenance-banner {
+  background: linear-gradient(
+      360deg,
+      rgba(188, 59, 244, 0.5),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url(../img/connect.jpg) center/cover no-repeat;
+  width: 100%;
+  min-height: 90vh;
+  position: relative;
+}
+
+.maintenance-banner-content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 40%;
+  z-index: 1;
+
+  display: grid;
+  place-items: center;
+}
+
+.maintenance-banner-content h2 {
+  font-size: 2.1rem;
+  font-weight: 500;
+  color: rgba(217, 121, 234, 1);
+}
+
+.maintenance-banner-content p {
+  color: var(--text-color-light);
+  font-size: 1.4rem;
+  padding: 1rem;
+
+  line-height: 1.4;
+}
+
+/* Ending of styling for the banner*/
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  margin: 2rem 0;
+  padding: 1rem;
+}
+
+.maintenance-heading h2 {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.maintenance-heading p {
+  font-size: 1.5rem;
+}
+
+.maintenance-content {
+  /* max-width: 60em; */
+  padding: 1rem;
+
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.maintenance-content p {
+  padding: 1rem;
+
+  text-align: left;
+  line-height: 1.4;
+}
+
+@media (min-width: 60em) {
+  .maintenance-content p {
+    padding: 1rem;
+    /* max-width: 60em; */
+    text-align: left;
+    line-height: 1.4;
+  }
+}
+
+/* Packages */
+
+.packages {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+  margin: 1rem;
+  box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card-container {
+  width: 80%;
+}
+
+/* Media Queries */
+
+@media (min-width: 60em) {
+  /* Spltting the sections */
+  .split3 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+  }
+}

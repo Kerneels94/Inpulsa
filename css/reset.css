@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=PT+Sans+Narrow&family=Raleway:ital,wght@1,100&display=swap");
+
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  /* background-color: rgb(255, 255, 255); */
+  /* background-color: rgba(255, 255, 255, 0) !important; */
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+/* header {
+  background: linear-gradient(180deg, rgba(1, 26, 255, 0.1), rgba(0, 0, 0, 0.5)),
+    url(../img/welding.jpg) center/cover no-repeat;
+  width: 100%;
+  min-height: 100vh;
+} */
+
+img {
+  display: block;
+  width: 100%;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  text-align: center;
+  line-height: 1.4;
+  font-size: 1.2rem;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.4;
+  text-align: center;
+  padding: 0.5em 0;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+h1,
+p {
+  padding: 0.5em 0;
+}
+
+/* section {
+  margin: 5rem 0;
+} */
+
+i {
+  width: 100%;
+  text-align: center;
+}
